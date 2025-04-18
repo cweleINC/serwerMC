@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [20:19:02] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.1+9-30; Oracle Corporation null) on Windows 11 10.0 (amd64)
 [20:19:02] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-225-main@0767902 (2025-04-11T21:49:39Z) for Minecraft 1.21.4
 [20:19:03] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
@@ -150,3 +151,5 @@
 [21:37:11] [Server thread/INFO]: KardoDziob lost connection: Timed out
 [21:37:12] [Server thread/INFO]: KardoDziob left the game
 [21:54:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1005311ms or 20106 ticks behind
+=======
+>>>>>>> 97ccec0af8f819aac8eed1414f7f2dc98686568b
