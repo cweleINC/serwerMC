@@ -1,0 +1,6 @@
+[00:05:14] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[00:05:14] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-225-main@0767902 (2025-04-11T21:49:39Z) for Minecraft 1.21.4
+[00:05:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:05:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[00:05:15] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - OnePlayerSleep (1.3), SkinsRestorer (15.6.2), UltimateTimber (4.1.0)
