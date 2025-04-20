@@ -1,0 +1,293 @@
+[18:44:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[18:44:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-225-main@0767902 (2025-04-11T21:49:39Z) for Minecraft 1.21.4
+[18:44:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:44:33] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[18:44:33] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - OnePlayerSleep (1.3), SkinsRestorer (15.6.2), UltimateTimber (4.1.0)
+[18:44:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:44:37] [ServerMain/WARN]: Usercache.json is corrupted or has bad formatting. Deleting it to prevent further issues.
+[18:44:39] [ServerMain/INFO]: Loaded 1370 recipes
+[18:44:39] [ServerMain/INFO]: Loaded 1481 advancements
+[18:44:39] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[18:44:39] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 173.6ms
+[18:44:39] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[18:44:39] [Server thread/INFO]: Loading properties
+[18:44:39] [Server thread/INFO]: This server is running Paper version 1.21.4-225-main@0767902 (2025-04-11T21:49:39Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[18:44:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:44:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:44:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:44:40] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[18:44:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:44:40] [Server console handler/WARN]: [org.jline] Failed to load history
+java.lang.IllegalArgumentException: Bad history file syntax! The history file `.console_history` may be an older history: please remove it or use a different history file.
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:175) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:165) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.lambda$load$0(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.jline.reader.impl.history.DefaultHistory.load(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.attach(DefaultHistory.java:69) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:603) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:109) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+[18:44:40] [Server thread/INFO]: Default game type: SURVIVAL
+[18:44:40] [Server thread/INFO]: Generating keypair
+[18:44:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:44:40] [Server thread/INFO]: Using default channel type
+[18:44:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:44:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:44:40] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:44:47] [Server thread/WARN]: Legacy plugin OnePlayerSleep v1.3 does not specify an api-version.
+[18:44:47] [Server thread/INFO]: [UltimateTimber] Loading server plugin UltimateTimber v4.1.0
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency com.zaxxer:HikariCP:4.0.3 from https://repo1.maven.org/maven2
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'HikariCP-4.0.3' successfully.
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency com.h2database:h2:1.4.200 from https://repo1.maven.org/maven2
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'h2-1.4.200' successfully.
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency com.github.cryptomorin:XSeries:13.2.0 from https://repo1.maven.org/maven2
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'XSeries-13.2.0' successfully.
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.apache.commons:commons-lang3:3.14.0 from https://repo1.maven.org/maven2
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'commons-lang3-3.14.0' successfully.
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.mariadb.jdbc:mariadb-java-client:3.2.0 from https://repo1.maven.org/maven2
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'mariadb-java-client-3.2.0' successfully.
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.slf4j:slf4j-api:2.0.11 from https://repo1.maven.org/maven2
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'slf4j-api-2.0.11' successfully.
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.reactivestreams:reactive-streams:1.0.2 from https://repo1.maven.org/maven2
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'reactive-streams-1.0.2' successfully.
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.jooq:jooq:3.14.16 from https://repo1.maven.org/maven2
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'jooq-3.14.16' successfully.
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.apache.commons:commons-text:1.12.0 from https://repo1.maven.org/maven2
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'commons-text-1.12.0' successfully.
+[18:44:47] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
+[18:44:47] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
+[18:44:47] [Server thread/INFO]: [OnePlayerSleep] Loading server plugin OnePlayerSleep v1.3
+[18:44:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:44:47] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
+[18:44:48] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[18:44:48] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[18:44:48] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[18:44:48] [Server thread/ERROR]: An unexpected error occurred while starting the plugin. Please check the console for more details.
+net.skinsrestorer.shadow.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:519) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.Gson.fromJson(Gson.java:1359) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.Gson.fromJson(Gson.java:1260) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.Gson.fromJson(Gson.java:1198) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.connections.RecommendationsState.scheduleRecommendations(RecommendationsState.java:66) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.plugin.SRPlugin.startup(SRPlugin.java:350) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.plugin.SRBootstrapper.startPlugin(SRBootstrapper.java:62) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.bukkit.SRBukkitBootstrap.onEnable(SRBukkitBootstrap.java:45) ~[SkinsRestorer.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:657) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:606) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.stream.JsonReader.unexpectedTokenError(JsonReader.java:1831) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.stream.JsonReader.beginObject(JsonReader.java:509) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:508) ~[SkinsRestorer.jar:?]
+	... 17 more
+[18:44:48] [Server thread/WARN]: Updater was not initialized, a error occurred while starting the plugin. Forcing updater to initialize.
+[18:44:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:44:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:44:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:44:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:44:48] [Server thread/INFO]: Preparing level "world"
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |    Error Mode    |
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[18:44:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[18:44:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:44:49] [Server thread/INFO]: Preparing spawn area: 0%
+[18:44:49] [Server thread/INFO]: Preparing spawn area: 4%
+[18:44:49] [Server thread/INFO]: Time elapsed: 728 ms
+[18:44:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:44:49] [Server thread/INFO]: Preparing spawn area: 0%
+[18:44:49] [Server thread/INFO]: Time elapsed: 146 ms
+[18:44:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:44:50] [Server thread/INFO]: Preparing spawn area: 0%
+[18:44:50] [Server thread/INFO]: Time elapsed: 62 ms
+[18:44:50] [Server thread/INFO]: [UltimateTimber] Enabling UltimateTimber v4.1.0
+[18:44:50] [Server thread/INFO]:  
+[18:44:50] [Server thread/INFO]: =============================
+[18:44:50] [Server thread/INFO]: UltimateTimber 4.1.0 by Songoda <3!
+[18:44:50] [Server thread/INFO]: Action: Enabling...
+[18:44:50] [Server thread/INFO]: [UltimateTimber] Loaded locale "en_US"
+[18:44:50] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] [SongodaCore] Hooked UltimateTimber.
+[18:44:50] [Server thread/INFO]: =============================
+[18:44:50] [Server thread/INFO]:  
+[18:44:50] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3*
+[18:44:50] [Server thread/INFO]: [spark] Starting background profiler...
+[18:44:50] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:44:50] [Server thread/INFO]: Done preparing level "world" (1.911s)
+[18:44:50] [Server thread/INFO]: Running delayed init tasks
+[18:44:50] [Server thread/INFO]: Done (18.785s)! For help, type "help"
+[18:45:01] [User Authenticator #0/INFO]: UUID of player KardoDziob is 169f30be-4c78-39d7-b812-0cd30c1438ad
+[18:45:02] [Server thread/INFO]: KardoDziob joined the game
+[18:45:02] [Server thread/INFO]: KardoDziob[/[0:0:0:0:0:0:0:1]:57003] logged in with entity id 181 at ([world]-60.08923797210136, 146.0, -119.76249998807907)
+[18:55:10] [Server thread/INFO]: Villager Villager['Villager'/482, uuid='72199363-7e30-46db-b968-92cd1f9d1635', l='ServerLevel[world]', x=80.15, y=60.05, z=-19.70, cpos=[5, -2], tl=11752, v=true] died, message: 'Villager was squished too much'
+[18:56:10] [Server thread/INFO]: Villager Villager['Villager'/520, uuid='3b1c5fa7-89c6-4ed5-ab66-2e8a8d22f137', l='ServerLevel[world]', x=80.70, y=60.04, z=-19.30, cpos=[5, -2], tl=12533, v=true] died, message: 'Villager was squished too much'
+[18:57:08] [Server thread/INFO]: Villager Villager['Villager'/525, uuid='1281e311-860f-4212-9073-ad84ebd2dfab', l='ServerLevel[world]', x=80.70, y=60.04, z=-19.30, cpos=[5, -2], tl=13405, v=true] died, message: 'Villager was squished too much'
+[18:58:44] [Server thread/INFO]: KardoDziob lost connection: Disconnected
+[18:58:44] [Server thread/INFO]: KardoDziob left the game
+[19:18:13] [User Authenticator #1/INFO]: UUID of player BENSON is 0f1da6cb-6a32-330a-8147-eb7f2d1f4e41
+[19:18:15] [Server thread/INFO]: BENSON joined the game
+[19:18:15] [Server thread/INFO]: BENSON[/[0:0:0:0:0:0:0:1]:62770] logged in with entity id 6282 at ([world]65.83707076977271, 118.0, -43.70530371560134)
+[19:19:14] [User Authenticator #2/INFO]: UUID of player KardoDziob is 169f30be-4c78-39d7-b812-0cd30c1438ad
+[19:19:15] [Server thread/INFO]: KardoDziob joined the game
+[19:19:15] [Server thread/INFO]: KardoDziob[/[0:0:0:0:0:0:0:1]:62951] logged in with entity id 6752 at ([world]-60.47429205235738, 146.0, -117.8048324734913)
+[19:20:34] [Server thread/INFO]: BENSON was slain by KardoDziob
+[19:22:34] [Server thread/INFO]: BENSON hit the ground too hard
+[19:24:26] [Server thread/INFO]: BENSON has made the advancement [Cover Me with Diamonds]
+[19:25:07] [Server thread/INFO]: BENSON has made the advancement [Ol' Betsy]
+[19:28:15] [Server thread/INFO]: BENSON has made the advancement [Take Aim]
+[19:28:27] [Server thread/INFO]: KardoDziob has made the advancement [Take Aim]
+[19:28:34] [Server thread/INFO]: BENSON was shot by KardoDziob
+[19:29:29] [Server thread/INFO]: BENSON was shot by KardoDziob
+[19:30:03] [Server thread/INFO]: BENSON was shot by KardoDziob
+[19:30:16] [Server thread/INFO]: BENSON was shot by KardoDziob
+[19:30:25] [Server thread/INFO]: BENSON was shot by KardoDziob
+[19:31:16] [Server thread/INFO]: KardoDziob lost connection: Disconnected
+[19:31:16] [Server thread/INFO]: KardoDziob left the game
+[19:57:25] [User Authenticator #3/INFO]: UUID of player exdi9 is 56c49fbd-1316-3c34-9042-bb4344b86bf4
+[19:57:25] [Server thread/INFO]: exdi9 joined the game
+[19:57:25] [Server thread/INFO]: exdi9[/127.0.0.1:52893] logged in with entity id 8761 at ([world]91.01756688003022, 127.0, -29.915419954384657)
+[20:00:31] [User Authenticator #4/WARN]: [SkinsRestorer] Failed to get skin data for SkinIdentifier(identifier=339773c1-f8cf-4184-9cc3-b9879399fd71, skinVariant=null, skinType=PLAYER)
+net.skinsrestorer.shared.storage.adapter.StorageAdapter$StorageException: net.skinsrestorer.shadow.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at SkinsRestorer.jar/net.skinsrestorer.shared.storage.adapter.file.FileAdapter.getPlayerSkinData(FileAdapter.java:251) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.storage.SkinStorageImpl.getSkinDataByIdentifier(SkinStorageImpl.java:342) ~[SkinsRestorer.jar:?]
+	at java.base/java.util.Optional.flatMap(Optional.java:289) ~[?:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.storage.PlayerStorageImpl.getSkinForPlayerResult(PlayerStorageImpl.java:281) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.storage.PlayerStorageImpl.getSkinForPlayer(PlayerStorageImpl.java:273) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.listeners.LoginProfileListenerAdapter.handleAsync(LoginProfileListenerAdapter.java:68) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.listeners.LoginProfileListenerAdapter.lambda$handleLogin$0(LoginProfileListenerAdapter.java:50) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.bukkit.paper.PaperPlayerJoinEvent$1.runAsync(PaperPlayerJoinEvent.java:80) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.bukkit.paper.PaperPlayerJoinEvent$1.runAsync(PaperPlayerJoinEvent.java:52) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.listeners.LoginProfileListenerAdapter.handleLogin(LoginProfileListenerAdapter.java:48) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.bukkit.paper.PaperPlayerJoinEvent.onAsyncPreLogin(PaperPlayerJoinEvent.java:48) ~[SkinsRestorer.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.callPlayerPreLoginEvents(ServerLoginPacketListenerImpl.java:357) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.lambda$handleHello$0(ServerLoginPacketListenerImpl.java:206) ~[paper-1.21.4.jar:1.21.4-225-0767902]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: net.skinsrestorer.shadow.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:519) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.Gson.fromJson(Gson.java:1359) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.Gson.fromJson(Gson.java:1260) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.Gson.fromJson(Gson.java:1170) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.Gson.fromJson(Gson.java:1107) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.storage.adapter.file.FileAdapter.getPlayerSkinData(FileAdapter.java:247) ~[SkinsRestorer.jar:?]
+	... 20 more
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.stream.JsonReader.unexpectedTokenError(JsonReader.java:1831) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.stream.JsonReader.beginObject(JsonReader.java:509) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:508) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.Gson.fromJson(Gson.java:1359) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.Gson.fromJson(Gson.java:1260) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.Gson.fromJson(Gson.java:1170) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shadow.gson.Gson.fromJson(Gson.java:1107) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.storage.adapter.file.FileAdapter.getPlayerSkinData(FileAdapter.java:247) ~[SkinsRestorer.jar:?]
+	... 20 more
+[20:00:31] [User Authenticator #4/INFO]: UUID of player bilbord is d3511339-62fb-3171-ab27-7ec9aefbcacc
+[20:00:31] [Server thread/INFO]: bilbord joined the game
+[20:00:31] [Server thread/INFO]: bilbord[/[0:0:0:0:0:0:0:1]:53367] logged in with entity id 11666 at ([world]-4.280749831842225, 104.0, 16.268532610756516)
+[20:00:54] [Server thread/INFO]: bilbord issued server command: /op
+[20:01:35] [User Authenticator #5/INFO]: UUID of player KardoDziob is 169f30be-4c78-39d7-b812-0cd30c1438ad
+[20:01:36] [Server thread/INFO]: KardoDziob joined the game
+[20:01:36] [Server thread/INFO]: KardoDziob[/[0:0:0:0:0:0:0:1]:53540] logged in with entity id 12382 at ([world]46.586843632226135, 114.0, -44.53380606120425)
+[20:02:05] [Server thread/INFO]: Made bilbord a server operator
+[20:02:12] [Server thread/INFO]: bilbord issued server command: /gamemode creative
+[20:02:12] [Server thread/INFO]: [bilbord: Set own game mode to Creative Mode]
+[20:02:22] [Server thread/INFO]: Made exdi9 a server operator
+[20:02:25] [Server thread/INFO]: bilbord issued server command: /gamemode survival
+[20:02:25] [Server thread/INFO]: [bilbord: Set own game mode to Survival Mode]
+[20:02:33] [Server thread/INFO]: exdi9 issued server command: /op KardoDziob
+[20:02:33] [Server thread/INFO]: [exdi9: Made KardoDziob a server operator]
+[20:02:35] [Server thread/INFO]: KardoDziob issued server command: /gamemode c
+[20:02:36] [Server thread/INFO]: BENSON fell from a high place
+[20:02:39] [Server thread/INFO]: KardoDziob issued server command: /gamemode c
+[20:02:43] [Server thread/INFO]: KardoDziob issued server command: /gamemode creative
+[20:02:43] [Server thread/INFO]: [KardoDziob: Set own game mode to Creative Mode]
+[20:03:53] [Server thread/INFO]: exdi9 lost connection: Disconnected
+[20:03:53] [Server thread/INFO]: exdi9 left the game
+[20:03:57] [Server thread/INFO]: Stopping the server
+[20:03:57] [Server thread/INFO]: Stopping server
+[20:03:57] [Server thread/INFO]: [OnePlayerSleep] Disabling OnePlayerSleep v1.3
+[20:03:57] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.2
+[20:03:57] [Server thread/INFO]: [UltimateTimber] Disabling UltimateTimber v4.1.0
+[20:03:57] [Server thread/INFO]:  
+[20:03:57] [Server thread/INFO]: =============================
+[20:03:57] [Server thread/INFO]: UltimateTimber 4.1.0 by Songoda <3!
+[20:03:57] [Server thread/INFO]: Action: Disabling...
+[20:03:57] [Server thread/INFO]: =============================
+[20:03:57] [Server thread/INFO]:  
+[20:03:57] [Server thread/INFO]: Saving players
+[20:03:57] [Server thread/INFO]: bilbord lost connection: Server closed
+[20:03:57] [Server thread/INFO]: bilbord left the game
+[20:03:57] [Server thread/INFO]: KardoDziob lost connection: Server closed
+[20:03:57] [Server thread/INFO]: KardoDziob left the game
+[20:03:57] [Server thread/INFO]: BENSON lost connection: Server closed
+[20:03:57] [Server thread/INFO]: BENSON left the game
+[20:03:57] [Server thread/INFO]: Saving worlds
+[20:03:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:03:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:03:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:03:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Saved 1145 block chunks, 1566 entity chunks, 1 poi chunks in world 'world' in 0.71s
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[20:03:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Saved 9 block chunks, 15 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[20:03:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 20 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[20:03:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[20:03:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:03:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:03:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:03:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:03:58] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[20:03:58] [Server thread/INFO]: All I/O tasks to complete
+[20:03:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[20:03:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
