@@ -161,6 +161,8 @@ world-settings:
       item: 0.5
       exp: -1.0
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 players:
   disable-saving: false
 config-version: 12
